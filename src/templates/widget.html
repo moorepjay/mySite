@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <h3>Widget!</h3>
+    <p>This widget will do stuff!</p>
+    <p>Easy: AlbionDB lookup.</p>
+    <p>Harder: Scrape html from website that requires auth (Microsoft).</p>
+</div>
+<div class="container">
+    <form>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Paste Data Here:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </form>
+</div>
+
+{% endblock %}
